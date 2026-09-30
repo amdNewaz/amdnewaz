@@ -1,389 +1,586 @@
-<div align="center">
+👋 Hi, I'm Md Newaz Alam
 
-# 👋 Hi, I'm Md Newaz Alam
+PhD Researcher · Software Engineer · Privacy & Security · IoT · Federated Learning
 
-### 🔐 Privacy-Preserving AI • 🤖 Federated Learning • ⛓️ Blockchain • 📡 IoT Security • 🧠 TinyML
+I am a PhD researcher at the University of Southampton Malaysia and a software engineer with experience building backend systems, APIs, mobile applications, databases, and business software.
 
-https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=00C8FF&center=true&vCenter=true&width=800&lines=PhD+Researcher+%40+University+of+Southampton+Malaysia;Building+Secure+AI+for+Resource-Constrained+Devices;Federated+Learning+%7C+Blockchain+%7C+TinyML;Privacy-Preserving+Machine+Learning;Security+%C3%97+AI+%C3%97+IoT+%C3%97+Distributed+Systems
+My research focuses on making privacy-preserving machine learning and secure distributed systems practical for resource-constrained IoT devices.
 
-</div>
-
----
-
-## 🚀 About Me
-
-I am a **PhD Researcher at the University of Southampton Malaysia** and a **Software Engineer** with interests at the intersection of:
-
-```text
-       Security
-           │
-           ▼
-Artificial Intelligence
-           │
-           ▼
- Federated Learning
-           │
-           ▼
-   Resource-Constrained IoT
-           │
-           ▼
-       Blockchain
-```
-
-My research focuses on making secure and privacy-preserving machine learning practical for highly constrained edge devices.
-
-### Current Research Topics
+My current research interests include:
 
 - 🔐 Lightweight Cryptography
 - 🤖 Federated Learning
-- 🧠 Federated Knowledge Distillation
-- 🛡️ Differential Privacy
-- 📡 BLE-enabled IoT Systems
-- 🚀 TinyML & Edge AI
-- 🔒 Privacy-Preserving Machine Learning
-- ⛓️ Blockchain-Auditable Learning
+- 🛡️ Privacy-Preserving Machine Learning
+- ⛓️ Blockchain & Distributed Systems
+- 📡 Resource-Constrained IoT
+- 📶 Bluetooth Low Energy (BLE)
+- 🧠 Edge AI & TinyML
+- 🎓 Knowledge Distillation
+- 🔒 Differential Privacy
 - 🧪 Formal Security Verification
-- 📚 Secure Distributed Systems
+
+On the engineering side, I primarily work with Node.js, JavaScript, REST APIs, SQL databases, AWS, Linux and business/POS systems.
 
 ---
 
-# 🔬 PhD Research
+🔬 Research
 
-### University of Southampton Malaysia
+PhD — University of Southampton Malaysia
 
-**Research Area**
+Research area: Cryptography, Privacy-Preserving Federated Learning, Blockchain and Resource-Constrained IoT
 
-```text
-Privacy-Preserving Machine Learning
-            +
-Lightweight Cryptography
-            +
-Blockchain
-            +
-Resource-Constrained IoT
-```
-
-My research investigates secure federated learning systems for embedded devices operating with extremely limited:
+My doctoral research investigates lightweight security and privacy mechanisms for federated learning systems operating on devices with limited:
 
 - CPU
-- RAM
-- Flash Storage
-- Battery Capacity
-- Communication Bandwidth
+- Memory
+- Storage
+- Battery
+- Network bandwidth
 
-The objective is to design solutions that are:
+A major focus is designing protocols that are not only cryptographically secure, but also practical to deploy on real IoT hardware.
 
-✅ Secure
+Current Research Direction
 
-✅ Privacy-preserving
+Privacy-Preserving Federated Knowledge Distillation with On-Device Teachers for Resource-Constrained IoT Devices
 
-✅ Efficient
+Areas being investigated include:
 
-✅ Deployable on real hardware
-
----
-
-# 🧠 Current Research Direction
-
-## Privacy-Preserving Federated Knowledge Distillation
-
-Exploring a new learning paradigm where resource-constrained IoT devices exchange knowledge rather than full neural network parameters.
-
-### Key Concepts
-
-- On-device Teacher Models
-- Tiny Student Models
-- Public Logit Exchange
-- Knowledge Distillation
-- Differential Privacy
-- Temperature Scaling
-- Communication Efficiency
-- TinyML Deployment
-- Membership Inference Resistance
+- Federated Knowledge Distillation
+- On-device teacher models
+- Public-logit based knowledge transfer
+- Differentially private soft logits
+- TinyML
+- Tiny transformer architectures
+- Communication-efficient learning
+- Resource-aware model design
+- Membership-inference privacy analysis
 
 ---
 
-# 🔐 Blockchain-Auditable Federated Learning
+🚀 Featured Research Projects
 
-A secure federated learning framework designed specifically for BLE-enabled IoT devices.
+🔐 Secure Blockchain-Based Federated Learning for BLE IoT
 
-### Hardware Platform
+Research implementation investigating secure federated learning on resource-constrained BLE-enabled devices.
 
-| Specification | Value |
-|--------------|--------|
-| Device | Arduino Nano 33 BLE Sense |
-| MCU | Nordic nRF52840 |
-| Clock | 64 MHz |
-| Flash | 1 MB |
-| RAM | 256 KB |
-| Connectivity | BLE |
+Hardware
 
----
+- Arduino Nano 33 BLE Sense
+- Nordic nRF52840
+- 64 MHz MCU
+- 1 MB Flash
+- 256 KB SRAM
+- BLE connectivity
 
-### Machine Learning
+Machine Learning
 
 - MobileNetV1
-- Width Multiplier α = 0.25
+- Width multiplier α = 0.25
 - Visual Wake Words
-- INT8 Quantization
-- TinyML Inference
-- Embedded Deployment
+- Face-related classification
+- 96 × 96 grayscale input
+- INT8 inference
 
----
+Security
 
-### Security Features
+- ECDSA
+- Offline signing
+- Nonce synchronization
+- Blockchain auditability
+- Transaction reconciliation
+- Formal security verification
 
-- ECDSA Signatures
-- Offline Signing
-- Nonce Synchronization
-- Auditability
-- Transaction Reconciliation
-- Formal Verification
-- Replay Protection
+Blockchain
 
----
-
-### Blockchain Components
-
-- Ethereum-Compatible Blockchain
-- Solidity Smart Contracts
-- Sepolia Test Network
-- Infura Relay
+- Ethereum-compatible blockchain
+- Sepolia test network
+- Solidity smart contracts
 - Web3.py
-- Allowlisted Transactions
+- Infura relay
+- Transaction allowlisting
+
+The implementation investigates how blockchain-backed auditability and cryptographic protection can be integrated with federated learning while respecting the memory, computation and communication limitations of embedded devices.
 
 ---
 
-# 🛡️ Security Research
+🧠 Privacy-Preserving Federated Knowledge Distillation
 
-### Formal Security Verification
+A research direction focused on reducing the computational and communication requirements of federated learning through knowledge distillation.
 
-I use **ProVerif** to formally analyze cryptographic protocols and verify:
+Key concepts include:
+
+- On-device teacher models
+- Tiny student models
+- Public datasets
+- Soft-logit communication
+- Differential privacy
+- Logit clipping
+- Temperature scaling
+- Communication-efficient representations
+- Resource-constrained deployment
+
+The objective is to explore whether knowledge can be transferred between heterogeneous IoT devices without requiring every device to exchange large model updates.
+
+---
+
+🛡️ Formal Security Verification with ProVerif
+
+I use ProVerif to formally investigate security properties of cryptographic protocols.
+
+Repository:
+
+"ProVerif Research Repository" (https://github.com/amdNewaz/proverif-newaz)
+
+Areas include:
 
 - Authentication
 - Confidentiality
-- Integrity
-- Adversarial Resistance
-- Protocol Correctness
-
-### Research Repository
-
-🔗 https://github.com/amdNewaz/proverif-newaz
+- Cryptographic protocol analysis
+- Adversarial models
+- Security properties
+- Protocol verification
 
 ---
 
-# 💻 Software Engineering
+💻 Software Engineering
 
-Alongside academic research, I build production-grade software systems.
+Alongside academic research, I work as a software engineer building practical production systems.
 
-## Backend Development
+My strongest engineering focus is backend development and APIs.
 
-```text
-Node.js
-Express.js
-REST APIs
-Authentication
-Microservices
-Business Logic
-Transaction Processing
-```
-
-### Main Technologies
+Backend
 
 - Node.js
 - Express.js
-- Sequelize
 - JavaScript
 - REST APIs
-- JWT Authentication
+- Sequelize
+- API architecture
+- Authentication
+- Business logic
+- Transaction processing
 
----
-
-## Databases
+Databases
 
 - MySQL
 - MariaDB
 - SQL
-- Query Optimization
-- Data Modeling
-- Backup & Recovery
+- Database design
+- Query optimization
+- Relational data modelling
+- Backup and restoration
+- Database integration
 
----
+Infrastructure
 
-## Cloud & Infrastructure
-
-- AWS
 - Linux
 - Ubuntu
-- Docker
-- Apache
-- SSL/TLS
-- VPS Hosting
+- AlmaLinux
+- AWS
 - PM2
+- Apache / HTTPD
+- SSL/TLS
+- VPS deployment
+- Server administration
 
 ---
 
-# 📱 Mobile Development
+🧾 POS & Business Systems
 
-Previous experience includes:
+I have worked extensively on web-based POS and business management systems.
+
+Areas include:
+
+- Sales
+- Receipts
+- Products
+- Categories
+- Inventory
+- Customers
+- Branch management
+- Taxes
+- Reporting
+- Product-level configuration
+- Kitchen/printer routing
+- Database integration
+- Accounting-system integration
+
+Architecture
+
+Typical systems involve:
+
+Frontend
+   ↓
+REST API
+   ↓
+Node.js / Express
+   ↓
+Sequelize
+   ↓
+MySQL / MariaDB
+   ↓
+Business / POS Database
+
+I also work with existing business databases and integrations where the application must coexist with established POS/accounting software.
+
+---
+
+📱 Mobile Development
+
+Earlier in my career I worked extensively with mobile application development.
+
+Technologies
 
 - Flutter
 - Dart
 - Firebase
 - Google Maps
-- Location Tracking
-- State Management
+- Mobile UI
+- State management
+- REST API integration
+- Real-time location systems
 
-### Notable Projects
+Selected Projects
 
 📚 I-Library
 
-🦠 COVID-19 Statistics App
-
-📍 Real-Time Tracking System
+A mobile-oriented library application project.
 
 ⏱️ Flutter BLoC Timer
 
----
+A Flutter application demonstrating BLoC-based state management.
 
-# 🛠️ Technology Stack
+🦠 COVID-19 Statistics App
 
-## Languages
+A mobile application for presenting COVID-19 statistics.
 
-https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript
-https://img.shields.io/badge/Python-blue?style=for-the-badge&logo=python
-https://img.shields.io/badge/SQL-darkblue?style=for-the-badge
-https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart
-https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity
+📍 Real-Time Tracking
 
-## AI & Research
-
-https://img.shields.io/badge/Federated_Learning-blue?style=for-the-badge
-https://img.shields.io/badge/TinyML-green?style=for-the-badge
-https://img.shields.io/badge/Differential_Privacy-red?style=for-the-badge
-https://img.shields.io/badge/Knowledge_Distillation-orange?style=for-the-badge
-
-## Backend
-
-https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js
-https://img.shields.io/badge/Express-black?style=for-the-badge&logo=express
-
-## Databases
-
-https://img.shields.io/badge/MySQL-blue?style=for-the-badge&logo=mysql
-https://img.shields.io/badge/MariaDB-brown?style=for-the-badge&logo=mariadb
+A Google Maps/Firebase-based real-time tracking project.
 
 ---
 
-# 📊 GitHub Statistics
+🧑‍💻 Technologies
 
-<div align="center">
+Programming Languages
 
-https://github-readme-stats.vercel.app/api?username=amdNewaz&show_icons=true&theme=tokyonight
+"JavaScript" (https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+"Python" (https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+"Dart" (https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
+"SQL" (https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+"Solidity" (https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
 
-https://github-readme-stats.vercel.app/api/top-langs/?username=amdNewaz&layout=compact&theme=tokyonight
+Backend
 
-</div>
+"Node.js" (https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+"Express" (https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
+"Sequelize" (https://img.shields.io/badge/Sequelize-52B0E7?style=flat-square&logo=sequelize&logoColor=white)
+
+Databases
+
+"MySQL" (https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+"MariaDB" (https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
+
+Cloud & Infrastructure
+
+"AWS" (https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+"Linux" (https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+"Ubuntu" (https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
+"Docker" (https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+Mobile
+
+"Flutter" (https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+"Firebase" (https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+
+Security & Research
+
+- ProVerif
+- Solidity
+- ECDSA
+- Cryptographic protocols
+- Formal verification
+- Differential Privacy
+- Federated Learning
+- Knowledge Distillation
+- TinyML
+- Edge AI
+- Blockchain
 
 ---
 
-# 🔬 Research Interests
+🔬 Research Interests
 
-```text
-Privacy-Preserving AI
+Privacy-Preserving Machine Learning
         │
         ├── Federated Learning
-        │       ├── Knowledge Distillation
-        │       ├── Communication Efficiency
-        │       └── TinyML
+        │      ├── Federated Knowledge Distillation
+        │      ├── Communication Efficiency
+        │      └── Resource-Constrained FL
         │
         ├── Differential Privacy
+        │      ├── Private Logits
+        │      └── Privacy Analysis
         │
         ├── Lightweight Cryptography
+        │      ├── ECDSA
+        │      ├── Secure Protocols
+        │      └── Formal Verification
         │
-        ├── Blockchain Security
+        ├── Blockchain
+        │      ├── Auditability
+        │      ├── Smart Contracts
+        │      └── Transaction Integrity
         │
-        ├── Formal Verification
-        │
-        └── Resource-Constrained IoT
-```
+        └── IoT / Edge AI
+               ├── BLE
+               ├── TinyML
+               ├── Embedded ML
+               └── Resource-Constrained Devices
 
 ---
 
-# ⭐ Featured Repositories
+🧪 Research & Experimental Work
 
-| Repository | Area |
-|------------|------|
-| 🔐 ProVerif Research | Formal Verification |
-| ⛓️ Blockchain FL | Blockchain Security |
-| 🧠 Federated KD | Privacy-Preserving ML |
-| 📡 TinyML Experiments | Edge AI |
-| 💻 Backend Systems | Software Engineering |
-| 📱 Flutter Apps | Mobile Development |
+My work combines theoretical security analysis with physical-device experimentation.
+
+Rather than evaluating protocols only in simulation, I am interested in measurements such as:
+
+- RAM consumption
+- Flash usage
+- Training time
+- Inference time
+- Cryptographic operation time
+- Communication overhead
+- Energy/resource constraints
+- Model accuracy
+- Privacy/utility trade-offs
+- Blockchain transaction latency
+
+This helps connect cryptographic and machine-learning research with practical embedded deployment.
 
 ---
 
-# 📚 Publications
+⛓️ Blockchain & Web3
 
-### Research Themes
+Experience and research involving:
+
+- Ethereum-compatible networks
+- Sepolia
+- Solidity
+- Web3.py
+- Smart contracts
+- Transaction submission
+- Transaction monitoring
+- Blockchain audit trails
+- Wallet/key management
+- Cryptographic signing
+- Nonce management
+- Transaction reconciliation
+
+---
+
+🔐 Security
+
+My security interests span both software systems and cryptographic protocols.
+
+Areas
+
+- Applied cryptography
+- Lightweight cryptography
+- Digital signatures
+- ECDSA
+- Authentication
+- Secure communication
+- Privacy-preserving ML
+- Formal verification
+- Blockchain security
+- Threat modelling
+- Protocol analysis
+
+Security Tools
+
+- ProVerif
+- Slither
+- Solidity security tooling
+- Cryptographic libraries
+
+---
+
+🎓 Education
+
+University of Southampton Malaysia
+
+PhD Researcher
+
+Research focus:
+
+«Privacy-preserving machine learning, lightweight cryptography, blockchain and resource-constrained IoT systems.»
+
+Universiti Teknologi Malaysia
+
+Bachelor's Degree
+
+2019 – 2022
+
+---
+
+🏫 Academic & University Activities
+
+I have also been involved in university academic activities and student-facing initiatives, including postgraduate research and student engagement.
+
+Staff–Student Liaison Committee — PGR
+
+University of Southampton Malaysia
+
+---
+
+📚 Publications & Research
+
+My research work focuses on secure and privacy-preserving federated learning for resource-constrained IoT environments.
+
+Research Themes
 
 - Secure Federated Learning
-- Blockchain-Auditable FL
+- Blockchain-Auditable Federated Learning
 - BLE-enabled IoT
-- Differential Privacy
-- Knowledge Distillation
+- Lightweight cryptographic protocols
+- Offline signing
+- Nonce synchronization
+- Privacy-preserving knowledge distillation
+- Differential privacy
 - TinyML
-- Lightweight Cryptography
+
+More publication and research information:
+
+- Google Scholar: [Add your Google Scholar link]
+- ORCID: [Add your ORCID link]
+- University Profile: [Add your University profile link]
 
 ---
 
-# 🌱 Currently Exploring
+🛠️ Development Philosophy
 
-- Federated Knowledge Distillation
-- Tiny Transformer Architectures
-- Differentially Private Logits
-- TinyML Optimization
-- Secure Blockchain Integration
-- BLE-based Federated Systems
-- Formal Verification
+I enjoy working at the intersection of:
+
+Research
+   +
+Security
+   +
+Machine Learning
+   +
+Embedded Systems
+   +
+Backend Engineering
+   +
+Real-World Deployment
+
+My goal is to build systems that are not only theoretically interesting, but also measurable, reproducible and practical.
 
 ---
 
-# 🤝 Collaboration
+📊 GitHub
 
-Interested in collaborating on:
+I use GitHub to share:
+
+- Research implementations
+- Security verification models
+- Experimental code
+- Backend projects
+- Utilities
+- Prototypes
+- Learning projects
+- Open-source work
+
+«🚧 Some repositories are research prototypes and may change as the corresponding research develops.»
+
+---
+
+🌱 Currently Exploring
+
+- Privacy-preserving federated knowledge distillation
+- TinyML
+- Differentially private logits
+- Lightweight cryptographic protocols
+- Secure blockchain integration
+- BLE-based IoT systems
+- Formal verification
+- Edge AI
+- Resource-efficient machine learning
+
+---
+
+🤝 Collaboration
+
+I am interested in technical and research collaboration around:
 
 - Federated Learning
-- TinyML
+- Privacy-Preserving ML
 - IoT Security
+- Lightweight Cryptography
 - Blockchain
-- Differential Privacy
 - Edge AI
+- TinyML
 - Knowledge Distillation
 - Formal Verification
 
 ---
 
-<div align="center">
+📫 Connect With Me
 
-## 📫 Connect With Me
+<p align="left">
+  <a href="https://github.com/amdNewaz">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="YOUR_LINKEDIN_URL">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="YOUR_GOOGLE_SCHOLAR_URL">
+    <img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white"/>
+  </a>
+  <a href="YOUR_ORCID_URL">
+    <img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white"/>
+  </a>
+</p>---
 
-https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github](https://github.com/amdNewaz)
+⭐ Featured Repositories
 
-https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin](YOUR_LINKEDIN)
+I recommend pinning the repositories that best represent the following areas:
 
-https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar](YOUR_SCHOLAR)
-
-https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid](YOUR_ORCID)
-
-</div>
+Repository| Area
+🔐 ProVerif Research| Formal Security Verification
+⛓️ Federated Learning + Blockchain| IoT / Security / Blockchain
+🧠 Federated Knowledge Distillation| Privacy / ML
+💻 Backend / POS System| Software Engineering
+📱 Flutter Projects| Mobile Development
+🧪 Research Experiments| ML / Security
 
 ---
 
-<div align="center">
+⚡ Quick Facts
 
-### 🚀 Building Secure Intelligent Systems for Resource-Constrained Environments
+🎓 PhD Researcher
+💻 Software Engineer
+🔐 Security & Cryptography
+🤖 Federated Learning
+📡 IoT / BLE
+🧠 TinyML & Edge AI
+⛓️ Blockchain
+🛡️ Privacy-Preserving ML
+🧪 Formal Verification
+🌐 Backend Engineering
+📱 Mobile Development
+☁️ AWS / Linux
+🗄️ MySQL / MariaDB
 
-#### Security × AI × IoT × Blockchain × Distributed Systems
+---
 
-</div>
+🚀 Building at the intersection of
+
+Security × AI × IoT × Blockchain × Software Engineering
+
+---
+
+<p align="center">
+  <i>Researching secure intelligent systems for resource-constrained environments.</i>
+</p>
